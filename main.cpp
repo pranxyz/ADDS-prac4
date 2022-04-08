@@ -23,12 +23,12 @@ int main()
 
    cout<<reverse.reverseString(s)<<" ";
 
-   if(numCrates<1)
+   if(loadSize<1)
        cout << "ERROR"<<" ";
    else
        cout << truckloads.numTrucks(numCrates,loadSize)<<" ";
 
-   if(numCrates<1)
+   if(loadSize<1)
        cout << "ERROR" <<endl;
    else
        cout << efficienttruckloads.numTrucks(numCrates,loadSize) << endl;
