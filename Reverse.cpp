@@ -10,7 +10,8 @@ int Reverse::reverseDigit(int value)
     {
     return -1;
     }
-    int remainder,reversed;
+    int remainder;
+    int reversed = 0;
     while(value != 0)
     {
         remainder = value%10;
